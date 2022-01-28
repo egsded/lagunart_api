@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <!-- Google Fonts Roboto -->
+  {{ style('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap') }}
+  <!-- Bootstrap core CSS -->
+  {{ style('https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css') }}
+  <!-- Material Design Bootstrap -->
+  {{ style('https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.css') }}
+  <!-- Custom style -->
+  {{ style('http://127.0.0.1:3333/css/style') }}
+</head>
+<body>
+
+  <!-- CONTENT -->
+  <div id="content" class="container-fluid elegant-color-dark">
+    @!section('content')
+  </div>
+
+  <!-- jQuery -->
+  {{ script('https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js') }}
+  <!-- Bootstrap core JavaScript -->
+  {{ script('https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.bundle.min.js') }}
+  <!-- MDB core JavaScript -->
+  {{ script('https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js') }}
+</body>
+</html>
